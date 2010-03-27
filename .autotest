@@ -1,0 +1,5 @@
+# Require the JS Test Driver module
+require 'lib/autotest/js-test-driver'
+
+require 'config/autotest'
+

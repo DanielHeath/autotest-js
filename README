@@ -1,0 +1,17 @@
+To run the tests:
+
+Install:
+Growl >= 1.1.5 on Mac OS X -or-
+Growl for Windows >= 2.0b18 on Windows -or-
+libnotify >= 0.4.5 on Linux
+
+(Once only)
+gem install autotest
+gem install autotest-growl
+
+
+Leave the following running in a terminal: java -jar lib/JsTestDriver.jar --port 9876 --config jsTestDriver.conf
+Navigate to http://localhost:9876 and select "Capture This Browser"
+Leave the following running in another terminal: autotest
+
+If you execute "touch src/greeter.js", you should now get a notification telling you that one test passed.
